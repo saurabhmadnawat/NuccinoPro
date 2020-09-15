@@ -15,13 +15,6 @@
     <orderEntry type="module-library"> 
       <library> 
         <CLASSES>
-          <root url="jar:///home/lambamansha/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar!/"/>
-        </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
-        <CLASSES>
           <root url="jar:///home/lambamansha/.m2/repository/org/springframework/spring-jdbc/4.3.26.RELEASE/spring-jdbc-4.3.26.RELEASE.jar!/"/>
         </CLASSES>
       </library> 
@@ -51,6 +44,13 @@
       <library> 
         <CLASSES>
           <root url="jar:///home/lambamansha/.m2/repository/org/springframework/spring-tx/4.3.26.RELEASE/spring-tx-4.3.26.RELEASE.jar!/"/>
+        </CLASSES>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
+        <CLASSES>
+          <root url="jar:///home/lambamansha/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar!/"/>
         </CLASSES>
       </library> 
     </orderEntry>  
@@ -113,6 +113,13 @@
     <orderEntry type="module-library"> 
       <library> 
         <CLASSES>
+          <root url="jar:///home/lambamansha/.m2/repository/com/efsavage/jquery/jquery-maven/1.7.2/jquery-maven-1.7.2.jar!/"/>
+        </CLASSES>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
+        <CLASSES>
           <root url="jar:///home/lambamansha/.m2/repository/org/slf4j/slf4j-log4j12/1.5.2/slf4j-log4j12-1.5.2.jar!/"/>
         </CLASSES>
       </library> 
@@ -162,7 +169,14 @@
     <orderEntry type="module-library"> 
       <library> 
         <CLASSES>
-          <root url="jar:///home/lambamansha/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar!/"/>
+          <root url="jar:///home/lambamansha/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar!/"/>
+        </CLASSES>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
+        <CLASSES>
+          <root url="jar:///home/lambamansha/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/"/>
         </CLASSES>
       </library> 
     </orderEntry> 
@@ -247,6 +261,11 @@
     </containerElement>
     <containerElement type="library" level="module">
       <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jquery-maven-1.7.2.jar"/>
+      <url>jar:///home/lambamansha/.m2/repository/com/efsavage/jquery/jquery-maven/1.7.2/jquery-maven-1.7.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
       <attribute name="URI" value="/WEB-INF/lib/slf4j-log4j12-1.5.2.jar"/>
       <url>jar:///home/lambamansha/.m2/repository/org/slf4j/slf4j-log4j12/1.5.2/slf4j-log4j12-1.5.2.jar!/</url>
     </containerElement>
@@ -259,11 +278,6 @@
       <attribute name="method" value="1"/>
       <attribute name="URI" value="/WEB-INF/lib/log4j-1.2.14.jar"/>
       <url>jar:///home/lambamansha/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar!/</url>
-    </containerElement>
-    <containerElement type="library" level="module">
-      <attribute name="method" value="1"/>
-      <attribute name="URI" value="/WEB-INF/lib/mysql-connector-java-5.1.18.jar"/>
-      <url>jar:///home/lambamansha/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar!/</url>
     </containerElement>
     <containerElement type="library" level="module">
       <attribute name="method" value="0"/>
@@ -284,6 +298,16 @@
       <attribute name="method" value="1"/>
       <attribute name="URI" value="/WEB-INF/lib/classmate-0.8.0.jar"/>
       <url>jar:///home/lambamansha/.m2/repository/com/fasterxml/classmate/0.8.0/classmate-0.8.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/mysql-connector-java-8.0.17.jar"/>
+      <url>jar:///home/lambamansha/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/protobuf-java-3.6.1.jar"/>
+      <url>jar:///home/lambamansha/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/</url>
     </containerElement>
   </component> 
 </module>

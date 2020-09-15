@@ -67,8 +67,14 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.18</version>
+      <version>8.0.17</version>
     </dependency>
+      <dependency>
+          <groupId>com.efsavage.jquery</groupId>
+          <artifactId>jquery-maven</artifactId>
+          <version>1.7.2</version>
+      </dependency>
+
 
   </dependencies>
   <build>
@@ -88,8 +94,9 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.1</version>
         <configuration>
-          <url>http://localhost:8080/SearchEngine</url>
+          <url>http://localhost:8082/SearchEngine</url>
           <server>mytomcat</server>
+          <port>8082</port>
           <path>/SearchEngine</path>
         </configuration>
       </plugin>

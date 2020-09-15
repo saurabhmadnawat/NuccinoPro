@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="368becb8-ea6b-413a-9929-66def11e3ab8" name="Default Changelist" comment="" />
+    <list default="true" id="368becb8-ea6b-413a-9929-66def11e3ab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CustomSQLErrorCodesTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DataAccessExcpn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MysqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EngineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/EngineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ResultFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ResultFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/connection/ConnectionI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/connection/MySqlConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/connection/OracleConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/dao/DaoI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/dao/MysqlDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/dao/OracleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OracleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/factory/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/engineForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/engineForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/searchResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/searchResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/searchSuggestions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/EngineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/EngineController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rootConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rootConfigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ResultFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ResultFetcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/connection/ConnectionI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/connection/MySqlConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/connection/OracleConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/dao/DaoI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/dao/MysqlDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/dao/OracleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/factory/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webConfigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-09-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/engineForm_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/engineForm_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/engineForm_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/engineForm_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/searchResult_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/searchResult_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/searchResult_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/WEB_002dINF/views/searchResult_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/SearchEngine/org/apache/jsp/index_jsp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +216,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -219,6 +266,7 @@
     <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
   </component>
   <component name="ProjectId" id="1grQsOEfUzVTNBKCxOUMFDIGlug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewSettings">
     <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
     <view id="ProjectPane">
@@ -240,10 +288,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoapAssgnService" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SearchEngine" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
@@ -375,26 +429,44 @@
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="131" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1598878625591">
-      <screen x="0" y="27" width="1152" height="837" />
+    <state x="455" y="119" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1599030657382">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="384" y="131" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1152.837@0.27.1152.837" timestamp="1598878625591" />
-    <state x="417" y="336" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1598881099698">
+    <state x="455" y="119" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1599030657382" />
+    <state x="309" y="223" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599197868545">
       <screen x="0" y="27" width="1152" height="837" />
     </state>
-    <state x="417" y="336" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1152.837@0.27.1152.837" timestamp="1598881099698" />
-    <state x="359" y="202" width="735" height="484" key="FileChooserDialogImpl" timestamp="1598877958392">
+    <state x="309" y="223" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1152.837@0.27.1152.837" timestamp="1599197868545" />
+    <state x="694" y="416" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600145482883">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="417" y="336" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1152.837@0.27.1152.837" timestamp="1599143215415" />
+    <state x="494" y="301" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1599715781088" />
+    <state x="694" y="416" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600145482883" />
+    <state x="140" y="362" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599197857336">
       <screen x="0" y="27" width="1152" height="837" />
     </state>
-    <state x="359" y="202" width="735" height="484" key="FileChooserDialogImpl/0.27.1152.837@0.27.1152.837" timestamp="1598877958392" />
+    <state x="140" y="362" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1152.837@0.27.1152.837" timestamp="1599197857336" />
+    <state x="329" y="326" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599197871772">
+      <screen x="0" y="27" width="1152" height="837" />
+    </state>
+    <state x="329" y="326" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1152.837@0.27.1152.837" timestamp="1599197871772" />
+    <state x="426" y="182" width="735" height="484" key="FileChooserDialogImpl" timestamp="1600152414595">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="359" y="202" width="735" height="484" key="FileChooserDialogImpl/0.27.1152.837@0.27.1152.837" timestamp="1599205061543" />
+    <state x="426" y="182" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600152414595" />
     <state x="59" y="27" width="1024" height="837" key="SettingsEditor" timestamp="1598878030379">
       <screen x="0" y="27" width="1152" height="837" />
     </state>
     <state x="59" y="27" width="1024" height="837" key="SettingsEditor/0.27.1152.837@0.27.1152.837" timestamp="1598878030379" />
-    <state x="232" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1598870446183">
-      <screen x="0" y="27" width="1152" height="837" />
+    <state x="275" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1600152403572">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="232" y="272" key="com.intellij.ide.util.TipDialog/0.27.1152.837@0.27.1152.837" timestamp="1598870446183" />
+    <state x="232" y="272" key="com.intellij.ide.util.TipDialog/0.27.1152.837@0.27.1152.837" timestamp="1599197392663" />
+    <state x="275" y="244" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1600152403572" />
+    <state x="387" y="335" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600146603737" />
     <state x="0" y="46" width="1142" height="799" key="new project wizard" timestamp="1598878019633">
       <screen x="0" y="27" width="1152" height="837" />
     </state>
